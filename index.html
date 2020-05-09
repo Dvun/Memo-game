@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Memo</title>
+</head>
+<body>
+
+<div class='gameControlWindow'>
+  <div class="buttonsAndSelect">
+    <label for="game">How Big game You want ?</label>
+    <select id="game">
+      <option value="0">Change Value</option>
+      <option value="16">4 X 4</option>
+      <option value="24">6 X 4</option>
+      <option value="36">6 X 6</option>
+    </select>
+    <button class='btnStartGame'>start</button>
+    <button class='btnResetGame'>reset</button>
+  </div>
+  <div class="counter"></div>
+  <div class="timer"></div>
+  <div class='lastGameCounter'></div>
+  <div class='lastGameTimer'></div>
+</div>
+
+<div class="memoryGameWindow"></div>
+<div class='popupWindow'></div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
